@@ -50,6 +50,8 @@ export class Ghost {
     }
     this.stateChartState = state;
     this.stateChanges++;
+
+    // need to return something here, but not sure what exactly yet
   }
 
   stateChart = makeGhostStateChart({
